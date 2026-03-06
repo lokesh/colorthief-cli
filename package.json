@@ -1,0 +1,35 @@
+{
+    "name": "colorthief-cli",
+    "version": "3.3.1",
+    "description": "CLI for extracting dominant colors and palettes from images. Batteries-included wrapper for colorthief.",
+    "keywords": [
+        "color",
+        "palette",
+        "cli",
+        "image",
+        "color-extraction",
+        "colorthief"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Lokesh Dhakar",
+        "email": "lokesh.dhakar@gmail.com",
+        "url": "http://lokeshdhakar.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lokesh/colorthief-cli.git"
+    },
+    "homepage": "https://lokeshdhakar.com/projects/color-thief/",
+    "type": "module",
+    "bin": {
+        "colorthief-cli": "bin.mjs"
+    },
+    "files": [
+        "bin.mjs"
+    ],
+    "dependencies": {
+        "colorthief": "^3.3.0",
+        "sharp": ">=0.33.0"
+    }
+}
